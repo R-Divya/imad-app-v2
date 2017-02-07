@@ -5,12 +5,73 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+
+var articleonet=(
+    title= 'Article one going',
+    headind=  'Article one',
+    date= '7 feb 2017',
+    content=`  <p>
+              This is the content of my first article.This is the content of my first articleThis is the content of my first article..This is the content of my first article.This is the content of my first article.This is the content of my first article.
+          </p>
+          <p>
+              This is the content of my first article.This is the content of my first articleThis is the content of my first article..This is the content of my first article.This is the content of my first article.This is the content of my first article.
+          </p>
+          <p>
+              This is the content of my first article.This is the content of my first articleThis is the content of my first article..This is the content of my first article.This is the content of my first article.This is the content of my first article.
+          </p>`
+     
+);
+function createtemplate(data){
+    var title=data.title;
+    var date=data.date;
+    var heading=data.heading;
+    var content=data.content;
+
+var templatehtml = `
+<html>
+    <head>
+        <title>
+            ${title}
+        </title>
+        <style>
+            .container(
+            max-width:800px;
+            margin:0 auto;
+            color: grey;
+        
+            )
+        </style>
+     </head>
+     <boby> 
+        <div class="container">;
+          <div>
+              <o href="/">Home</o>
+         </div>
+     
+      <hr/>
+      <h3>
+          ${heading}
+      </h3>
+      <div>
+        ${date}
+      </div>
+      <div>
+          ${content}
+      </div>
+      </div>
+       </boby>
+      
+</html>
+`;
+return htmltemplate;
+}
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 app.get('/article-one',function(req,res){
-     res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
+     res.send(createtemplate(articleone));
    
 });
 
