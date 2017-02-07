@@ -42,6 +42,48 @@ app.use(morgan('combined'));
    };
     
 function createtemplate(data){
+    var title=data.title;
+    var date=data.date;
+    var heading=data.heading;
+    var content=data.content;
+
+var templatehtml = `
+<html>
+    <head>
+        <title>
+            ${title}
+        </title>
+        <style>
+            .container(
+            max-width:800px;
+            margin:0 auto;
+            color: grey;
+        
+            )
+        </style>
+     </head>
+     <boby> 
+        <div class="container">;
+          <div>
+              <o href="/">Home</o>
+         </div>
+     
+      <hr/>
+      <h3>
+          ${heading}
+      </h3>
+      <div>
+        ${date}
+      </div>
+      <div>
+          ${content}
+      </div>
+      </div>
+       </boby>
+      
+</html>
+`;
+return htmltemplate;
     
 }
 
