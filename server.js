@@ -6,8 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 
-
-  var articles ={
+var articles ={
    'article-one':(
        title= 'Article one going',
     headind=  'Article one',
@@ -22,6 +21,9 @@ app.use(morgan('combined'));
               This is the content of my first article.This is the content of my first articleThis is the content of my first article..This is the content of my first article.This is the content of my first article.This is the content of my first article.
           </p>`
      ),
+   
+   
+   
    'article-two':(
        title= 'Article two going',
     headind=  'Article two',
@@ -41,13 +43,13 @@ app.use(morgan('combined'));
        )
    };
     
-function templatehtml(data){
+function createTemplate(data){
     var title=data.title;
     var date=data.date;
     var heading=data.heading;
     var content=data.content;
 
-var templatehtml = `
+var htmlTemplate = `
 <html>
     <head>
         <title>
@@ -83,7 +85,7 @@ var templatehtml = `
       
 </html>
 `;
-return templatehtml;
+return htmlTemplate;
     
 }
 
