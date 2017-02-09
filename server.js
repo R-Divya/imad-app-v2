@@ -13,12 +13,12 @@ app.get('/article-one',function(req, res){
     res.send('article one served here');
 });
 
-app.get('/article-one',function(req, res){
-    res.send('article one served here');
+app.get('/article-two',function(req, res){
+    res.send('article two served here');
 });
 
-app.get('/article-one',function(req, res){
-    res.send('article one served here');
+app.get('/article-three',function(req, res){
+    res.send('article three served here');
 });
 
 app.get('/ui/style.css', function (req, res) {
