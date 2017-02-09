@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            Article Three Divya
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div>
+            <o href="/">Home</o>
+        </div>
+        <hr/>
+        <h3>
+            Article Three
+        </h3>
+        <div>
+            feb 9 2017
+        </div>
+        
+        <p>
+        this is the content for third article.
+        </p>
+        
+        
+    </body>
+</html>
