@@ -58,7 +58,7 @@ var htmlTemplate = `
         
      </head>
      <boby> 
-        <div class="container">;
+        <div>
           <div>
               <o href="/">Home</o>
          </div>
