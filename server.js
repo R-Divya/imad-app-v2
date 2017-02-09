@@ -55,14 +55,7 @@ var htmlTemplate = `
         <title>
             ${title}
         </title>
-        <style>
-            .container(
-            max-width:800px;
-            margin:0 auto;
-            color: grey;
         
-            )
-        </style>
      </head>
      <boby> 
         <div class="container">;
