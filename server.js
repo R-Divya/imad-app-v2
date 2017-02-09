@@ -41,7 +41,7 @@ app.use(morgan('combined'));
        )
    };
     
-function createtemplate(data){
+function templatehtml(data){
     var title=data.title;
     var date=data.date;
     var heading=data.heading;
