@@ -70,7 +70,7 @@ var htmlTemplate = `
     <body>
         <div class="container">
             <div>
-            <o href="/">Home</o>
+            <a href="/">Home</a>
         </div>
         <hr/>
         <h3>
