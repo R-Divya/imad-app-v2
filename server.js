@@ -129,7 +129,7 @@ var name = req.params.name;
 names.push(name);
 
 
-res.send(JSON.stringify(names));
+res.send(JSON.stringify(name));
 
 });
 
