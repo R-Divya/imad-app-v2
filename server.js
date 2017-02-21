@@ -38,7 +38,7 @@ var articles = {
   heading:'Article two',
   date: '24 January 2017',
   content:`<p>
-        You know my birthday is on January 24th   :D
+        You know my birthday is on January 24th .   :D
         </p>`
     
 },
@@ -47,7 +47,7 @@ var articles = {
   heading:'Article three',
   date: '24 feb 2017',
   content:`<p>
-        Thank you for visiting all my pages.Keep smiling and be  happy always !!!!  :)
+        Thank you for visiting all my pages. Keep smiling and be  happy always !!!!  :)
         </p>`  
 
     
