@@ -44,7 +44,7 @@ var articles = {
   heading:'Article three',
   date: '24 jan 2017',
   content:`<p>
-        this is the content for 3rd article>
+        Thank you for visiting all my pages.May you live long and happy always !!!!  :)
         </p>`  
 
     
