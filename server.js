@@ -12,6 +12,9 @@ var articles = {
   heading:'Article One',
   date: '9 feb 2017',
   content:`<p>
+        I absolutely don't have anything to write in this article so have just copy-pasted my sentences !!!!!!!!!!
+        </p>
+        <p>
         this is the content for first article> this is the content for first article
         this is the content for first article  this is the content for first article
         this is the content for first article> this is the content for first article
@@ -42,7 +45,7 @@ var articles = {
 'article-three': {
   title: 'Article three | Divya',
   heading:'Article three',
-  date: '24 jan 2017',
+  date: '24 feb 2017',
   content:`<p>
         Thank you for visiting all my pages.Keep smiling and be  happy always !!!!  :)
         </p>`  
